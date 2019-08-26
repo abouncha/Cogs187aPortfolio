@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Works</title>
+        
+        <!-- Outside Styles -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <!--Outside Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" ></script>
+
+        <style>
+            body{
+                background: url(image/bg.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size:cover;
+                background-size: cover;
+                
+                font-family: Georgia serif;
+                
+            }
+        /* Sidebar Navigation Menu */
+            .sidenav{
+                width: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 20px;
+                right: 0px;
+                align-content: center
+            }
+            
+            /*sidebar links*/
+            .sidenav a{
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 12px;
+                display: grid;
+                color:azure;
+            }
+            
+            /*adjust color of sidebar when hovering links*/
+            .sidenav a:hover{
+                color: cornflowerblue;
+            }
+            
+            /* For small screens, adjust size of sidebar*/
+            @media screen and (max-height: 450px){
+                .sidenav{ padding-top: 15px;}
+                .sidenav a{font-size:15px;}
+            }
+            
+            /* Box settings */
+            .container{
+              width:60%;
+              border-radius: 10px;;
+              padding: 10px;
+              color: azure;
+              
+            }    
+            hr{
+                border-color: azure;
+                border-width: medium;
+            }
+            img{
+                width: 55%;
+                opacity: 1;
+                border:solid;
+                border-color:azure;
+                border-width:5px;
+            }  
+            h1{
+                font-size: 32px;
+                background: -webkit-linear-gradient(left,magenta,red,yellow,teal,blue, purple,red );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+   
+    <body>      
+        <div class="sidenav">
+            <a href="about.html">ABOUT</a>
+            <a href="work.html">WORK</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="resume.pdf">RESUME</a>
+        </div>
+        
+        <br />       
+        <br />
+        <br />
+        <br />
+        
+        <div class='container'>
+            <div class='row'>
+            <div class='col-12 text-left' style="font-size: 32px;">Project</div>
+            </div> 
+            <div class='col-12'><hr /></div>
+        </div>
+        
+        <div class='container'>
+            <div class='row'>
+                <div class='col-4' style='opacity: 1;'><h1><u>I N C O L O R</u></h1></div>
+                <div class='col-4' ><p style="display: none;">.</p></div>
+                
+                <div class='col-4'><p style="display: none;">.</p></div>
+            </div>
+            <div class='row'>
+                <div class='col-12'><br /></div>
+            </div>
+            <div class='row'>
+                <div class='col-4 text-center'><img src='image/inlogo.PNG' /></div>
+                <div class='col-8'>I am currently working on an app, called InColor, for people who have Color-blindness. InColor strives to let its users see the world in colors they otherwised wouldnt see because of their color-blindness. Its users will be able to use the world in new lens with our camera option for static photos or live video. User's personalized lens will be assigned after analyzing their choices on the Ishihara test. This app is in progress with my other team members from our Cogs 187A class.  </div>
+                
+            </div>
+            <div class='row'>
+                <div class='col-12'><br /></div>
+                <div class='col-6 text-justify'> On the right is the first low-fidelity prototype of our app. After an initial testing, some features were repetitive or confusing so we had to change the design interface for a more efficient and user friendly interface. From our initial testing, the first logo was confusing and reminded users of the Google Play button. There were too much buttons on the start page of the app and some buttons could be removed, like the color settings, and others combined, like the camera and live button. Other complaints were that there were too many buttons that directed to the color settings. Users would only need to set their settings once, since their sight rarely changes.</div>
+                <div class='col-6 text-center'><img src="image/ic1.PNG" /></div>
+            </div>
+            <div class='row'>
+                <div class='col-12'><br /></div>
+                <div class='col-12 text-justify'>We updated our prototype and have changed the logo of the app. The new logo is minimalistic and more memorable. We also decided to merge the two camera fnctions together, since prior, users had to navigate to seperate pages to use the static image function and live video function. We are still in the process of designing this app. In the future, we hope to include Google glasses and other AR devices to be used with our app, so users can always see all of the colors in the world. This app will expand to be used by anyone.</div>
+                <div class='col-12'><br /></div>
+                <div class='col-12' style="text-align: center;"><img src="image/ic2.PNG" /></div>
+            </div>
+        </div>
+
+    </body>
+
+    
+</html>

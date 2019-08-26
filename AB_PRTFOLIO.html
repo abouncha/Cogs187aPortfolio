@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Annie Bounchaleun's Portfolio</title>
+        
+        <!-- Outside Styles -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <!--Outside Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" ></script>
+
+        <style>
+
+            body{
+                background: url(image/bg.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size:cover;
+                background-size: cover;
+                
+                font-family: Georgia serif;
+                font-size: 16px;
+            }
+            
+        /* Sidebar Navigation Menu */
+            .sidenav{
+                width: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 20px;
+                right: 0px;
+                align-content: center
+            }
+            
+            /*sidebar links*/
+            .sidenav a{
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 12px;
+                display: grid;
+                color:azure;
+            }
+            
+            /*adjust color of sidebar when hovering links*/
+            .sidenav a:hover{
+                color: cornflowerblue;
+            }
+            
+            /* For small screens, adjust size of sidebar*/
+            @media screen and (max-height: 450px){
+                .sidenav{ padding-top: 15px;}
+                .sidenav a{font-size:15px;}
+                .circle{width:30%;height:30%;}
+                
+            } 
+            
+            /* Box settings */
+            .container{
+              width:60%;
+              border-radius: 10px;;
+              padding: 10px;
+              color: azure;
+              border-style: dotted;
+              
+            } 
+            
+            img{
+                width: 200px;
+                border-radius: 80%;
+                border-style:dotted;
+            }
+            a{
+                color:azure;
+            }
+            a:hover{            
+                color:cornflowerblue;
+            }
+        </style>
+    </head>
+   
+    <body>      
+        <div class="sidenav">
+            <a href="about.html">ABOUT</a>
+            <a href="work.html">WORK</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="resume.pdf">RESUME</a>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+      
+        
+    <div class="container">
+        <div class="row">  
+            <div class="col-2 ">
+              <br />
+            </div>
+            <div class="col-8 text-center ">
+              <a href='about.html'><img src="image/plbw.png" /></a>
+            </div> 
+            <div class="col-2">
+              <br />
+            </div>   
+        </div>
+      <div class="row">
+             <div class="col-2">
+              <br />
+            </div>         
+        <div class="col-8 text-center font-weight-bolder" style='font-size:60px;'>
+            Annie Bounchaleun
+        </div>
+            <div class="col-2">
+              <br />
+            </div>          
+      </div>  
+        <div class="row">
+             <div class="col-4">
+              <br />
+            </div>           
+            <div class="col-4 text-center" style='font-size:32px;'>
+              Designer
+            </div>
+            <div class="col-4">
+              <br />
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-4">
+              <br />
+            </div>           
+            <div class="col-4 text-right" style='font-size:32px;'>
+              Developer
+            </div>
+            <div class="col-4">
+              <br />
+            </div>
+        </div>         
+          </div>        
+
+    </body>
+
+    
+</html>
